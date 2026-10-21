@@ -1,0 +1,38 @@
+{
+  "author": {
+    "id": "au-mvf2lwpltupu",
+    "keyId": "020ed1eebd16",
+    "name": "HRSKNK"
+  },
+  "category": "玩法",
+  "changelog": "/items, /item的多物品版本",
+  "conflicts": [],
+  "delisted": false,
+  "description": "新增 /items：一次发放多种物品，数量统一。支持 typeID、type:ID、group:ID（组）、cat:ID（类别）与名字通配（如 科尔马克氏*），不限制类型数量（大批量后台分批）；舰船一律打包发放。/item、/giveitem 发船也改为打包。纯内存补丁，不改磁盘文件，禁用即恢复。",
+  "displayName": "批量发放物品命令 /items",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-items-bulk-seed/releases/download/v1.0.0/evejs-items-bulk-seed-1.0.0.zip"
+    }
+  ],
+  "evejsVersions": [
+    "0.12.9",
+    "261018.x"
+  ],
+  "featured": false,
+  "highlights": [],
+  "history": [],
+  "id": "evejs-items-bulk-seed",
+  "publishedAt": "2026-10-21",
+  "readme": [
+    "EveJS 自带 `/item` 一次只能发一种物品，GM 发整套材料、配装或测试装备时只能一条条敲。本模组新增 `/items`：一次调用按同一个数量发放多种物品，支持 typeID、名字通配、组与类别；舰船统一打包发放。"
+  ],
+  "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-items-bulk-seed",
+  "requiresRestart": true,
+  "sha256": "692bcff0e4f59f402f6b12c00f64cfc5577b9789aa4c678a61c1eba24f98732d",
+  "sizeBytes": 474965,
+  "tags": [],
+  "version": "1.0.0"
+}
